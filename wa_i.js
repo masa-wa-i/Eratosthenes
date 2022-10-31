@@ -14,8 +14,9 @@ function a() {
     }
     for (var e = 1; e <= w - 1; e++) {
       for (var f = 2; p[e] * f <= w; f++) {
-        if (p.indexOf(p[e] * f) != -1) {
-          p.splice(p.indexOf(p[e] * f), 1);
+        b = p.indexOf(p[e] * f);
+        if (b != -1) {
+          p.splice(b, 1);
         }
       }
     }
