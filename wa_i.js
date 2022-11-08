@@ -20,6 +20,7 @@ function a() {
         }
       }
     }
+    p.splice(0, 1);
     s.innerHTML = p.join("<br>");
     o.disabled = false;
     z = false;
